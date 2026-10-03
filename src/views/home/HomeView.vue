@@ -3,6 +3,7 @@
 import HeroSection from "@/views/home/sections/HeroSection.vue";
 import StatsBlock from "@/components/home/StatsBlock.vue";
 import RankingSection from "@/views/home/sections/RankingSection.vue";
+import HowItWorksSection from "@/views/home/sections/HowItWorksSection.vue";
 </script>
 
 <template>
@@ -10,6 +11,7 @@ import RankingSection from "@/views/home/sections/RankingSection.vue";
     <HeroSection/>
     <StatsBlock/>
     <RankingSection/>
+    <HowItWorksSection class="pb-12"/>
   </div>
 </template>
 
