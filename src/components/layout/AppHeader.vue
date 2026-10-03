@@ -1,14 +1,22 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref, useTemplateRef } from 'vue'
+import { onClickOutside } from "@vueuse/core";
 import { Menu, X } from '@lucide/vue'
 import DesktopNav from './DesktopNav.vue'
 import MobileNav from './MobileNav.vue'
+
+const header = useTemplateRef<HTMLElement | null>('header')
+
+onClickOutside(header, () => {
+  isActive.value = false
+})
 
 const isActive = ref(false)
 </script>
 
 <template>
-  <header class="w-full bg-white "
+  <header class="w-full bg-white"
+          ref="header"
           :class="{ 'border-b border-gray-200': !isActive }"
   >
     <div
