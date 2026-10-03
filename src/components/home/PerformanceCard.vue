@@ -167,9 +167,8 @@ const chartOptions: ChartOptions<'line'> = {
       xl:w-[640px]
       overflow-hidden
       rounded-[20px]
-      border border-slate-200
       bg-white
-      shadow-sm
+      shadow-xs
     "
   >
     <!-- Content -->

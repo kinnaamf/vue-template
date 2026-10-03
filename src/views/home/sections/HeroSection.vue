@@ -18,7 +18,7 @@ const categories = ['A', 'B', 'C', 'CE']
 </script>
 
 <template>
-  <section class="flex flex-col md:flex-row items-center gap-6 lg:gap-16 xl:justify-between">
+  <section class="flex flex-col md:flex-row items-center gap-6 lg:gap-16 xl:justify-between pt-12">
     <div>
       <div>
         <!-- Hero Text -->
