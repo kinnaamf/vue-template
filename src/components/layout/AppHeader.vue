@@ -24,9 +24,9 @@ const isActive = ref(false)
     >
       <RouterLink to="/">
         <img
-            src="https://placehold.co/160x48"
+            src="/logo.png"
             alt="Logo"
-            class="h-12 w-40"
+            class="h-12 w-40 object-cover"
         >
       </RouterLink>
 
