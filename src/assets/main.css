@@ -47,6 +47,11 @@ button {
     cursor: pointer;
 }
 
+section {
+    /*max-width: 1440px;*/
+    /*margin: 0 auto;*/
+}
+
 .container {
     width: min(1280px, calc(100% - 48px));
     margin-inline: auto;
@@ -220,17 +225,6 @@ h3 {
     color: var(--muted);
     font-size: 17px;
     line-height: 1.65;
-}
-
-.search-box {
-    display: flex;
-    align-items: stretch;
-    width: min(620px, 100%);
-    padding: 7px;
-    background: var(--surface);
-    border: 1px solid var(--line);
-    border-radius: 14px;
-    box-shadow: 0 12px 30px rgba(29, 48, 88, .06);
 }
 
 .search-box label {

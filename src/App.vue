@@ -5,9 +5,9 @@ import AppHeader from "@/components/layout/AppHeader.vue";
 
 <template>
   <header>
-    <AppHeader class="fixed left-0 top-0"/>
+    <AppHeader class="sticky left-0 top-0"/>
   </header>
-  <main>
+  <main class="max-w-[1440px] mx-auto">
     <RouterView/>
   </main>
 </template>
